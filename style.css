@@ -1,0 +1,463 @@
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+</style>
+*{
+margin: 0;
+padding: 0;
+
+}
+h1,h2,h3,h4,h5,h6,{font-family: 'Roboto', sans-serif;}
+.banner-left{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+p,input,span,button{
+	font-family: 'Roboto', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.header{
+	
+	width: 100%;
+}
+.logo{
+	margin: 10px;
+}
+ .logo img{
+	vertical-align: middle;
+}
+
+}
+.logo span{
+	font-size: 20px;
+	
+	vertical-align: middle;
+	font-weight: 500;
+}
+
+}
+.banner{
+	width: 100%;
+	display: flow-root;
+	
+}
+.banner-info{
+	width: 100%;
+	float: left;
+
+}
+.banner-left{
+	width: 40%;
+	float: left;
+	margin-left: 10px;
+	padding-left: 150px;
+}
+.banner-left p{
+	color: #4c527d;
+	font-size: 17px;
+
+}
+
+}
+.banner-right{
+	width: 50%;
+	float: right;
+
+}
+.banner-right .book-circle .reviews{
+
+	margin-top: 450px;
+	margin-left: -150px;
+}
+.banner-left button
+ {
+	padding: 7px 25px;
+	outline: none;
+	
+	
+border: 1px solid #ed6524;
+	
+border-radius: 25px;
+
+font-size: 15px;
+font-weight: 500;
+}
+.left-btn{
+	background: #ed6524;
+	color: white;
+}
+.right-btn{
+	color:#ed6524;
+	background: transparent; 
+	margin-left: 15px;
+
+}
+.right-btn:hover{
+	background-color: #ed6524;
+	color: white;
+	cursor: pointer;
+	transition: 1s;
+}
+.comment-text{
+	background: #f6f8fc;
+	width: 100%;
+	padding:15px 0px 15px 0px; 
+	border-left: 2px solid #ed6524;
+	position: relative;
+
+}
+.comment-text p{
+	font-style: italic;
+	font-size: 14px;
+}
+.box-icon{
+	width: 20px;
+	height: 20px;
+	background:  #f6f8fc ;
+	position: absolute;
+	bottom: -10px;
+	left:20px;
+	transform: rotate(45deg);
+
+}
+.comment-user{
+	width: 100%;
+	float: left;
+}
+.user-left{
+	width: 20%;
+	float: left;
+}
+.user-right{
+	width: 80%;
+	float: right;
+}
+.user-left img{
+	border-radius: 50%;
+
+}
+.user-right p{
+	font-size: 12px;
+}
+.user-des p{
+	margin: 0px;
+	padding: 0px;
+}
+.user-des{
+	margin-top: 20px; 
+	margin-left: -15px;
+}
+.user-right{
+	position: relative;
+}
+.book-circle{
+
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background:#5cb377;
+	position: absolute;
+	top: 45px;
+	right: 260px;
+
+}
+.book-circle h4{
+	color: white;
+	padding-top: 1px;
+	padding-left: 5px;
+	text-align: center;
+	font-size: 18px;
+}
+
+/*   service section css start*/
+
+.service{
+	
+	display: inline-block;
+	padding: 90px 0;
+	width: 100%;
+	display: flow-root;
+
+	
+}
+.service-title{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-top: -100px;
+	margin-right: 125px;
+	
+}
+.service-gallary {
+width: 100%;
+float: left;
+margin-top: 0px;
+}
+.item{
+	width: 29%;
+	float: left;
+	
+	margin-top: 80px;
+	
+	
+}
+.item i{
+	font-size: 36px;
+	color: #ed6524;
+	text-align: center;
+	margin-left: 126px;
+	
+}
+.service{
+	margin-top: 130px;
+	display: inline-block;
+	margin-left: 100px;
+	
+}
+/*   service section css end*/
+
+.included{
+	width: 100%;
+	display: flow-root;
+	padding: 50px 0;
+	text-align: center;
+
+}
+.included-title h1{
+	font-size: 30px;
+	margin-bottom: 40px;
+
+
+}
+.included-details{
+	width: 100%;
+	float: left;
+}
+.included-left{
+	width: 50%;
+	float: left;
+}
+.included-right{
+	width: 32%;
+	float: left;
+}
+.included-right ul li i{
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	line-height: 20px;
+	background: #7FCDB8;
+	color: white;
+	border-radius: 50%;
+	
+
+}
+	.included-right ul li{
+		margin: 40px;
+	}
+	
+ul li i{
+	margin-right: 10px;
+}
+
+
+.include-button button {
+	padding: 10px 10px;
+	outline: none;
+border: 1px solid #ed6524;
+	
+border-radius: 25px;
+
+font-size: 15px;
+font-weight: 500;
+color: white;
+background:#ed6524; 
+
+}
+.include-1{
+
+width: 100%;
+display: flow-root;
+	
+	padding: 50px 0;
+	text-align: center;
+	display: inline-block;
+}
+.first-part{
+text-align: center;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.second-part{
+
+	margin-right: 190px;
+	margin-top: 75px;
+}
+.second-part-p{
+	
+	margin-left: 132px;
+}
+
+.second-part h3 i{
+	color: green;
+	margin-right: 10px;
+}
+/*preview*/
+
+.preview {
+	width: 100%;
+	display: flow-root;
+	
+}
+.preview-details h2{
+	width: 100%;
+}
+.preview-details p{
+	text-align: center;
+}
+.preview-body{
+	width: 100%;
+	float: left;
+}
+.preview-left{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.preview-right{
+	width: 47%;
+	float: right;
+	text-align: left;
+}
+.preview-background{
+	width: 60%;
+	text-align: center;
+	background: #f6f8fc;
+	position: relative;
+padding:50px 0px 50px 0px;
+margin-left: 220px;
+}
+input{
+	border: none;
+	background: transparent;
+	background: white;
+	outline: none;
+	padding: 8px;
+}
+/*preview end*/
+.book-reviews{
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+
+}
+.book-body{
+	width: 100%;
+	float: left;
+	
+	display: flow-root;
+}
+.body-part-1a{
+	width: 33%;
+	float: left;
+	
+}
+
+.body-part-1b{
+	width: 33%;
+float: right;
+	
+}
+
+.body-part-1c{
+	width: 33%;
+	float: left;
+	}
+
+.body-user{
+	width: 100%;
+	float: left;
+}
+.body-left{
+	width: 20%;
+	float: left;
+}
+.body-right{
+	width: 80%;
+	float: right;
+}
+.body-left img{
+	border-radius: 50%;
+
+}
+ .body-part-2 button{
+	background: blue;
+	
+	padding: 7px 25px;
+	outline: none;
+	
+	
+border: 1px solid #ed6524;
+	
+border-radius: 25px;
+
+font-size: 15px;
+font-weight: 500;
+background: #ed6524;
+color: white;
+margin-bottom: 10px;
+margin-right: 380px;
+
+}
+.last-part{
+	width: 100%;
+	
+	background-color:#ed6524; 
+	margin-top: 200px;
+	
+	
+	overflow: hidden;
+}
+
+.last-part img {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+
+}
+.last-part h2{
+	text-align: center;
+
+}
+.last-part p{
+	text-align:left; 
+	margin: 0;
+	padding: 0;
+}
+.last-part-content{
+	padding: 50px 180px;
+	color: white;
+}
+.last-part h3{
+	text-align: center;
+}
+.last-part-icon{
+	text-align: center;
+}
+
+
+
+
